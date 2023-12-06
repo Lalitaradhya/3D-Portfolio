@@ -14,7 +14,7 @@ const InfoBox = ({text, link, btnText}) => (
 
 const renderContent = {
   1: (
-    <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-2 px-6 text-white mx-5'>
+    <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-2 px-6 text-white mx-5 font-medium'>
       💩 Hey there!👋🏼<br />
       Click ⬅️ ➡️  or  🖱️ / 👆🏾 to rotate 🚗, 🔊 for Audio <br />
       and learn more about me. <br />
@@ -23,18 +23,18 @@ const renderContent = {
   ),
   2: (
     <InfoBox 
-    text ="Art is the silent poetry of depth, creativity the language it speaks, and perception the silent audience that interprets the profound verses of the human experience."
+    text ="Which came first, the chicken or the egg? If the chicken came first, it must have hatched from an egg. If the egg came first, it must have been laid by a creature that was not quite a chicken. "
     link = "/about"
     btnText="My Resume"/>
   ),
   3: (
-    <p className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-2 px-6 text-white mx-5'>
-     "In the tapestry of time, carbon fiber weave strength,<br /> steel stands resilient, and stone bears witness. <br />  Together, they embody the enduring essence of evolution, <br /> reflecting the transformative journey of moments <br /> passing through the fabric of existence."
+    <p className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-2 px-6 text-white mx-5 font-medium'>
+     If you remove one grain of sand from a heap, it's still a heap. <br /> If you repeat this process, <br /> when does it stop being a heap? <br /> This paradox explores the concept of vagueness <br />
     </p>
   ),
   4: (
     <InfoBox 
-    text ="In the canvas of life, art is the brush that paints depth into existence, perception is the lens revealing hidden nuances, and creativity is the divine alchemy that turns imagination into a masterpiece."
+    text ="In Plato's dialogue Meno, Socrates raises the question of how one can seek knowledge about something if they don't already know what it is. It challenges the nature of learning and the acquisition of knowledge."
     link = "/contact"
     btnText="Let's Talk"/>
   ),
