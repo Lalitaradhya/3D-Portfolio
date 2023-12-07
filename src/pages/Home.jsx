@@ -57,13 +57,13 @@ const Home = () => {
 //Knight
   const adjustKnightForScreenSize = () => {
     let screenScale = null
-    let screenPosition = [0,-1,-100]
+    let screenPosition = [0,0,-100]
     let rotation = [0,0,0]
 
     if(window.innerWidth < 768){
       screenScale = [1,1,1]
     } else {
-      screenScale = [1.5,1.5,1.5];
+      screenScale = [2,2,2];
     }
     return [screenScale,screenPosition, rotation]
 
@@ -144,7 +144,7 @@ const Home = () => {
   rotation = {knightrotation}/>
   
   {/* replicas */}
-  <Knight  position= {[35,-6,-100]}
+  {/* <Knight  position= {[35,-6,-100]}
   scale= {knightScale}
   rotation = {[0,-0.8,0]}/>
   <Knight  position= {[20,-2.5,-100]}
@@ -155,10 +155,10 @@ const Home = () => {
   rotation = {[0,0.3,0]}/>
   <Knight  position= {[-35,-6,-100]}
   scale= {knightScale}
-  rotation = {[0,0.8,0]}/>
+  rotation = {[0,0.8,0]}/> */}
 
   {/* layer-2 */}
-  <Knight  position= {[-30,-1,-110]}
+  {/* <Knight  position= {[-30,-1,-110]}
   scale= {knightScale}
   rotation = {[0,0.5,0]}/>
   <Knight  position= {[30,-1,-110]}
@@ -169,10 +169,10 @@ const Home = () => {
   rotation = {knightrotation}/>
     <Knight  position= {[-10,-1,-110]}
   scale= {knightScale}
-  rotation = {knightrotation}/>
+  rotation = {knightrotation}/> */}
 
   {/* layer-3 */}
-  <Knight  position= {[-5,-1,-120]}
+  {/* <Knight  position= {[-5,-1,-120]}
   scale= {knightScale}
   rotation = {knightrotation}/>
   <Knight  position= {[5,-1,-120]}
@@ -183,78 +183,78 @@ const Home = () => {
   rotation = {knightrotation}/>
   <Knight  position= {[15,-1,-120]}
   scale= {knightScale}
-  rotation = {knightrotation}/>
+  rotation = {knightrotation}/> */}
 
   {/* Layer-4 */}
-  <Knight  position= {[-20,-1,-130]}
+  {/* <Knight  position= {[-20,-1,-130]}
   scale= {knightScale}
   rotation = {knightrotation}/>
   <Knight  position= {[20,-1,-130]}
   scale= {knightScale}
-  rotation = {knightrotation}/>
+  rotation = {knightrotation}/> */}
 
 
 
 {/* Jesus */}
 
-<Jesus  position= {[125,-70,-260]}
-  scale= {jesusScale}
+<Jesus  position= {[135,-170,-260]}
+  scale= {[25,25,25]}
   rotation = {[0,0,0]}/>
 
-  <Jesus  position= {[-105,-70,-260]}
-  scale= {jesusScale}
+  <Jesus  position= {[-105,-170,-350]}
+  scale= {[25,25,25]}
   rotation = {[0,1.2,0]}/>
 
 {/* layer-2 */}
 
-<Jesus  position= {[145,-65,-270]}
+{/* <Jesus  position= {[145,-65,-270]}
   scale= {jesusScale}
   rotation = {[0,0,0]}/>
 
   <Jesus  position= {[-125,-65,-270]}
   scale= {jesusScale}
-  rotation = {[0,1.2,0]}/>
+  rotation = {[0,1.2,0]}/> */}
 
   {/* layer-3 */}
 
 
-  <Jesus  position= {[175,-62,-280]}
+  {/* <Jesus  position= {[175,-62,-280]}
   scale= {jesusScale}
   rotation = {[0,0,0]}/>
 
   <Jesus  position= {[-155,-62,-280]}
   scale= {jesusScale}
-  rotation = {[0,1.2,0]}/>
+  rotation = {[0,1.2,0]}/> */}
 
 
 
 {/* layer-1 */}
-<Spartan  position= {[-85,-40,-90]}
-  scale= {[80,80,80]}
+<Spartan  position= {[-70,-80,-60]}
+  scale= {[95,95,95]}
   rotation = {[0,0.5,0]}/>
-  <Spartan  position= {[100,-40,-90]}
-  scale= {[82,82,82]}
-  rotation = {[0,-1.4,0]}/>
+  <Spartan  position= {[82,-80,-60]}
+  scale= {[95,95,95]}
+  rotation = {[0,-1.9,0]}/>
 
 
 {/* layer-2 */}
-<Spartan  position= {[-100,-35,-120]}
+{/* <Spartan  position= {[-100,-35,-120]}
   scale= {[80,80,80]}
   rotation = {[0,-0.3,0]}/>
   <Spartan  position= {[160,-35,-120]}
   scale= {[80,80,80]}
-  rotation = {[0,-1.6,0]}/>
+  rotation = {[0,-1.6,0]}/> */}
 
 
 
 {/* layer-3 */}
-<Spartan  position= {[-155,-35,-120]}
+{/* <Spartan  position= {[-155,-35,-120]}
   scale= {[83,83,83]}
   rotation = {[0,0.4,0]}/>
   <Spartan  position= {[210,-35,-140]}
   scale= {[80,80,80]}
   rotation = {[0,-1.4,0]}/>
-
+ */}
 
 
 
