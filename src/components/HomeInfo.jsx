@@ -28,9 +28,10 @@ const renderContent = {
     btnText="My Resume"/>
   ),
   3: (
-    <p className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-2 px-6 text-white mx-5 font-medium'>
-     If you remove one grain of sand from a heap, it's still a heap. <br /> If you repeat this process, <br /> when does it stop being a heap? <br /> This paradox explores the concept of vagueness <br />
-    </p>
+    <InfoBox 
+    text ="If you remove one grain of sand from a heap, it's still a heap. If you repeat this process, when does it stop being a heap? This paradox explores the concept of vagueness."
+    link = "https://ai.aradhya3d.com/"
+    btnText="Article Summarizer"/>
   ),
   4: (
     <InfoBox 

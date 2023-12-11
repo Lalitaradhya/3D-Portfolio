@@ -3,6 +3,7 @@ import { skills, experiences } from '../constants'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import CTA from '../components/CTA'
+import CTA2 from '../components/CTA2'
 
 const About = () => {
   return (
@@ -89,8 +90,10 @@ excellence, has driven successful project deliveries and fostered collaborative 
       </div>
 
       </div>
+      <hr className='border-slate-200'/>
+      <CTA2 />
      
-      <h3 className='subhead-text'>Projects</h3>
+      <h3 className='subhead-text mt-10'>Other Projects</h3>
       <div className='mt-5 mb-5 flex flex-col gap-3 text-slate-500 text-base'>
 <p>
 🤏 Design & Implementation of a IoT Smart Space. Detection of a coded sequence 
@@ -117,6 +120,7 @@ using the Hyperledger blockchain framework.</p>
  
       <hr className='border-slate-200'/>
       <CTA />
+     
       </section>
   )
 }

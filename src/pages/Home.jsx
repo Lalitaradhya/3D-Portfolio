@@ -17,7 +17,7 @@ const Home = () => {
   const audioRef = useRef(new Audio(minorarp))
   const audioRef2 = useRef(new Audio(lambosong))
   audioRef.current.volume = 1
-  audioRef2.current.volume = 0.1
+  audioRef2.current.volume = 1
   audioRef.current.loop = true
 
 
@@ -111,10 +111,6 @@ const Home = () => {
 
 
 
-
-
-  
-  
   return (
     <section className='w-full h-screen relative'>
       <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
@@ -143,58 +139,7 @@ const Home = () => {
   scale= {knightScale}
   rotation = {knightrotation}/>
   
-  {/* replicas */}
-  {/* <Knight  position= {[35,-6,-100]}
-  scale= {knightScale}
-  rotation = {[0,-0.8,0]}/>
-  <Knight  position= {[20,-2.5,-100]}
-  scale= {knightScale}
-  rotation = {[0,-0.3,0]}/>
-  <Knight  position= {[-20,-2.5,-100]}
-  scale= {knightScale}
-  rotation = {[0,0.3,0]}/>
-  <Knight  position= {[-35,-6,-100]}
-  scale= {knightScale}
-  rotation = {[0,0.8,0]}/> */}
-
-  {/* layer-2 */}
-  {/* <Knight  position= {[-30,-1,-110]}
-  scale= {knightScale}
-  rotation = {[0,0.5,0]}/>
-  <Knight  position= {[30,-1,-110]}
-  scale= {knightScale}
-  rotation = {[0,-0.5,0]}/>
-  <Knight  position= {[10,-1,-110]}
-  scale= {knightScale}
-  rotation = {knightrotation}/>
-    <Knight  position= {[-10,-1,-110]}
-  scale= {knightScale}
-  rotation = {knightrotation}/> */}
-
-  {/* layer-3 */}
-  {/* <Knight  position= {[-5,-1,-120]}
-  scale= {knightScale}
-  rotation = {knightrotation}/>
-  <Knight  position= {[5,-1,-120]}
-  scale= {knightScale}
-  rotation = {knightrotation}/>
-   <Knight  position= {[-15,-1,-120]}
-  scale= {knightScale}
-  rotation = {knightrotation}/>
-  <Knight  position= {[15,-1,-120]}
-  scale= {knightScale}
-  rotation = {knightrotation}/> */}
-
-  {/* Layer-4 */}
-  {/* <Knight  position= {[-20,-1,-130]}
-  scale= {knightScale}
-  rotation = {knightrotation}/>
-  <Knight  position= {[20,-1,-130]}
-  scale= {knightScale}
-  rotation = {knightrotation}/> */}
-
-
-
+  
 {/* Jesus */}
 
 <Jesus  position= {[135,-170,-260]}
@@ -205,26 +150,6 @@ const Home = () => {
   scale= {[25,25,25]}
   rotation = {[0,1.2,0]}/>
 
-{/* layer-2 */}
-
-{/* <Jesus  position= {[145,-65,-270]}
-  scale= {jesusScale}
-  rotation = {[0,0,0]}/>
-
-  <Jesus  position= {[-125,-65,-270]}
-  scale= {jesusScale}
-  rotation = {[0,1.2,0]}/> */}
-
-  {/* layer-3 */}
-
-
-  {/* <Jesus  position= {[175,-62,-280]}
-  scale= {jesusScale}
-  rotation = {[0,0,0]}/>
-
-  <Jesus  position= {[-155,-62,-280]}
-  scale= {jesusScale}
-  rotation = {[0,1.2,0]}/> */}
 
 
 
@@ -237,24 +162,6 @@ const Home = () => {
   rotation = {[0,-1.9,0]}/>
 
 
-{/* layer-2 */}
-{/* <Spartan  position= {[-100,-35,-120]}
-  scale= {[80,80,80]}
-  rotation = {[0,-0.3,0]}/>
-  <Spartan  position= {[160,-35,-120]}
-  scale= {[80,80,80]}
-  rotation = {[0,-1.6,0]}/> */}
-
-
-
-{/* layer-3 */}
-{/* <Spartan  position= {[-155,-35,-120]}
-  scale= {[83,83,83]}
-  rotation = {[0,0.4,0]}/>
-  <Spartan  position= {[210,-35,-140]}
-  scale= {[80,80,80]}
-  rotation = {[0,-1.4,0]}/>
- */}
 
 
 
